@@ -1,14 +1,15 @@
-package parser
+package rule
 
 import com.beust.klaxon.*
+import rule.OccasionRule
+import rule.Recurrence
 import rule.RecurrenceRule
-import java.io.StringReader
 
 /**
  * Created by kkr on 2018. 2. 6..
  */
 
-class OccasionParser {
+class OccasionRuleParser {
 
     val recurrenceRuleConverter = object : Converter<RecurrenceRule> {
 
@@ -20,9 +21,15 @@ class OccasionParser {
         override fun toJson(o: RecurrenceRule) = """ { "recurrence" : $o } """
     }
 
-    fun parse(json: String): Occasion? {
+    fun parse(json: String): OccasionRule? {
         return Klaxon()
                 .fieldConverter(Recurrence::class, recurrenceRuleConverter)
-                .parse<Occasion>(json)
+                .parse<OccasionRule>(json)
+    }
+
+    fun parseArray(array: String): List<OccasionRule>? {
+        return Klaxon()
+                .fieldConverter(Recurrence::class, recurrenceRuleConverter)
+                .parseArray<OccasionRule>(array)
     }
 }
