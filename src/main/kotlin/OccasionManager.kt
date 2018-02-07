@@ -8,17 +8,45 @@ class OccasionManager {
 
     // COUNTRY - OCCASION RULE
     private val occasionRuleMap: MutableMap<String, List<OccasionRule>> = mutableMapOf()
+    private val occasionMap: MutableMap<String, MutableMap<Int, Set<Occasion>>> = mutableMapOf()
     private val parser = OccasionRuleParser()
 
-    fun addOccasionRules(country: String, jsonArray: String) {
-        val occasionRules = parser.parseArray(jsonArray)!!
-        occasionRuleMap.put(country, occasionRules)
+    fun loadOccasionRules(code: String, path: String) {
+        val fileContent = OccasionManager::class.java.getResource(path).readText()
+        addOccasionRules(code, fileContent)
     }
 
-    fun getOccasions(country: String, year: Int): Set<Occasion> {
+    fun addOccasionRules(code: String, jsonArray: String) {
+        val occasionRules = parser.parseArray(jsonArray)!!
+        occasionRuleMap.put(code, occasionRules)
+    }
+
+    fun getOccasions(country: Country, year: Int): Set<Occasion> {
+        val code = country.code
+        val group = country.group
         var occasions = mutableSetOf<Occasion>()
-        occasionRuleMap[country]?.map { rule -> occasions.addAll(getOccasions(year, rule)) }
-        return occasions
+        if (occasionMap.containsKey(code)) {
+            if (occasionMap[code]!!.containsKey(year)) {
+                return occasionMap[code]!![year]!!
+            }
+            if (group != null) {
+                occasionRuleMap[group]?.map { rule -> occasions.addAll(getOccasions(year, rule)) }
+            } else {
+                occasionRuleMap[code]?.map { rule -> occasions.addAll(getOccasions(year, rule)) }
+            }
+            occasionMap[code]!!.put(year, occasions)
+            return occasions
+        } else {
+            if (group != null) {
+                loadOccasionRules(group, "occasion_$group.json")
+                occasionRuleMap[group]?.map { rule -> occasions.addAll(getOccasions(year, rule)) }
+            } else {
+                loadOccasionRules(code, "occasion_$code.json")
+                occasionRuleMap[code]?.map { rule -> occasions.addAll(getOccasions(year, rule)) }
+            }
+            occasionMap.put(code, mutableMapOf(Pair(year, occasions)))
+            return occasions
+        }
     }
 
     fun getOccasions(year: Int, rule: OccasionRule): Set<Occasion> {
@@ -50,7 +78,7 @@ class OccasionManager {
                 }
             }
         }
-        dates.map { date -> occasions.add(Occasion(date, rule.name, rule.desc)) }
+        dates.map { date -> occasions.add(Occasion(date, rule.name, rule.title, rule.desc)) }
         return occasions
     }
 

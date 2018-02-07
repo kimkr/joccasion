@@ -1,0 +1,152 @@
+[
+  {
+    "name": "New Year's Day",
+    "time": ["01.01"],
+    "desc": "Beginning of Another Happy New Year!",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "Valentine's Day",
+    "time": ["02.14"],
+    "desc": "On this year's Valentine's Day..",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "Easter 2018",
+    "time": ["2018", "03.30", "04.02"],
+    "desc": "On Easter of 2018",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Easter 2017",
+    "time": ["2017", "04.14", "04.17"],
+    "desc": "On Easter of 2017",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Easter 2016",
+    "time": ["2016", "03.25", "03.28"],
+    "desc": "On Easter of 2016",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Take Day 2018",
+    "time": ["2018.04.26"],
+    "desc": "On Take our Daughters and Sons to Work Day 2018",
+    "recurrence": "ONEYEAR_ONEDAY"
+  },
+  {
+    "name": "Take Day 2017",
+    "time": ["2017.04.27"],
+    "desc": "On Take our Daughters and Sons to Work Day 2017",
+    "recurrence": "ONEYEAR_ONEDAY"
+  },
+  {
+    "name": "Take Day 2016",
+    "time": ["2016.04.28"],
+    "desc": "On Take our Daughters and Sons to Work Day 2016",
+    "recurrence": "ONEYEAR_ONEDAY"
+  },
+  {
+    "name": "Mother's Day 2018",
+    "time": ["2018.05.13"],
+    "desc": "On Mother's Day of 2018",
+    "recurrence": "ONEYEAR_ONEDAY"
+  },
+  {
+    "name": "Mother's Day 2017",
+    "time": ["2017.05.14"],
+    "desc": "On Mother's Day of 2017",
+    "recurrence": "ONEYEAR_ONEDAY"
+  },
+  {
+    "name": "Mother's Day 2016",
+    "time": ["2016.05.08"],
+    "desc": "On Mother's Day of 2016",
+    "recurrence": "ONEYEAR_ONEDAY"
+  },
+  {
+    "name": "Father's Day 2018",
+    "time": ["2018.06.17"],
+    "desc": "On Father's Day of 2018",
+    "recurrence": "ONEYEAR_ONEDAY"
+  },
+  {
+    "name": "Father's Day 2017",
+    "time": ["2017.06.18"],
+    "desc": "On Father's Day of 2017",
+    "recurrence": "ONEYEAR_ONEDAY"
+  },
+  {
+    "name": "Father's Day 2016",
+    "time": ["2016.06.19"],
+    "desc": "On Father's Day of 2016",
+    "recurrence": "ONEYEAR_ONEDAY"
+  },
+  {
+    "name": "Independence Day",
+    "time": ["07.04"],
+    "desc": "Enjoying Independence Day!",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "Halloween",
+    "time": ["10.31"],
+    "desc": "On Halloween Day",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "Thanksgiving 2018",
+    "time": ["2018.11.22"],
+    "desc": "On Thanksgiving Day of 2018",
+    "recurrence": "ONEYEAR_ONEDAY"
+  },
+  {
+    "name": "Thanksgiving 2017",
+    "time": ["2017.11.23"],
+    "desc": "On Thanksgiving Day of 2017",
+    "recurrence": "ONEYEAR_ONEDAY"
+  },
+  {
+    "name": "Thanksgiving 2016",
+    "time": ["2016.11.24"],
+    "desc": "On Thanksgiving Day of 2016",
+    "recurrence": "ONEYEAR_ONEDAY"
+  },
+  {
+    "name": "Black Friday 2018",
+    "time": ["2018.11.23"],
+    "desc": "On Black Friday of 2018",
+    "recurrence": "ONEYEAR_ONEDAY"
+  },
+  {
+    "name": "Black Friday 2017",
+    "time": ["2017.11.24"],
+    "desc": "On Black Friday of 2017",
+    "recurrence": "ONEYEAR_ONEDAY"
+  },
+  {
+    "name": "Black Fridya 2016",
+    "time": ["2016.11.25"],
+    "desc": "On Black Friday of 2016",
+    "recurrence": "ONEYEAR_ONEDAY"
+  },
+  {
+    "name": "Christmas Eve",
+    "time": ["12.24"],
+    "desc": "Christmas Eve . Merry Christmas!",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "Christmas",
+    "time": ["12.25"],
+    "desc": "In memory of Christmas",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "The Last Day Of The Year",
+    "time": ["12.31"],
+    "desc": "Last day of the year . farewell to the passing year",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  }
+]

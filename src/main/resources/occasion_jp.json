@@ -1,0 +1,79 @@
+[
+  {
+    "name": "New Year's Day",
+    "time": ["01.01", "01.02"],
+    "title": "Beginning of Happy New Year!",
+    "desc": "楽しい新年を迎えて",
+    "recurrence": "EVERYYEAR_SPAN"
+  },
+  {
+    "name": "Hina Matsuri",
+    "time": ["03.03"],
+    "title": "",
+    "desc": "女の子の日, 雛祭り!",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "Golden Week 1",
+    "time": ["04.29"],
+    "title": "",
+    "desc": "ゴールデンウィーク . 昭和の日!",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "Golden Week 2",
+    "time": ["04.30", "05.02"],
+    "title": "",
+    "desc": "ゴールデンウィーク!",
+    "recurrence": "EVERYYEAR_SPAN"
+  },
+  {
+    "name": "Golden Week 3",
+    "time": ["05.03"],
+    "title": "",
+    "desc": "ゴールデンウィーク . 憲法記念日!",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "Golden Week 4",
+    "time": ["05.04"],
+    "title": "",
+    "desc": "ゴールデンウィーク . みどりの日!",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "Golden Week 5",
+    "time": ["05.05"],
+    "title": "",
+    "desc": "ゴールデンウィーク . こどもの日!",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "Obon",
+    "time": ["08.13", "08.15"],
+    "title": "",
+    "desc": "御盆!",
+    "recurrence": "EVERYYEAR_SPAN"
+  },
+  {
+    "name": "Christmas Eve",
+    "time": ["12.24"],
+    "title": "Christmas Eve . Merry Christmas!",
+    "desc": "クリスマス・イブ . メリークリスマス!",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "Christmas",
+    "time": ["12.25"],
+    "title": "In memory of Christmas",
+    "desc": "クリスマスの記憶",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "The Last Day Of The Year",
+    "time": ["12.31"],
+    "title": "Last day of the year . farewell to the passing year",
+    "desc": "今年の最後の日..",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  }
+]

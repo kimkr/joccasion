@@ -1,5 +1,0 @@
-package calendar
-
-class OccasionCalendar {
-
-}

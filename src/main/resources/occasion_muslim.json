@@ -1,0 +1,50 @@
+[
+  {
+    "name": "New Year's Day",
+    "time": ["01.01"],
+    "desc": "New Year!",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "Eid al.Fitr 2018",
+    "time": ["2018", "06.14", "06.17"],
+    "desc": "Eid al.Fitr 2018 Eid Mubarak!",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Eid al.Fitr 2017",
+    "time": ["2017", "06.24", "06.27"],
+    "desc": "Eid al.Fitr 2017!  Eid Mubarak!",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Eid al.Fitr 2016",
+    "time": ["2016", "07.04", "07.07"],
+    "desc": "Eid al.Fitr 2016!  Eid Mubarak!",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Eid al.Adha 2018",
+    "time": ["2018", "08.21", "08.25"],
+    "desc": "Eid al.Adha 2018!  Eid Mubarak!",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Eid al.Adha 2017",
+    "time": ["2017", "08.31", "09.04"],
+    "desc": "Eid al.Adha 2017!  Eid Mubarak!",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Eid al.Adha 2016",
+    "time": ["2016", "09.10", "09.14"],
+    "desc": "Eid al.Adha 2016!  Eid Mubarak!",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "The Last Day Of The Year",
+    "time": ["12.31"],
+    "desc": "Last day of the year . farewell to the passing year",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  }
+]

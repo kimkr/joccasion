@@ -1,0 +1,138 @@
+[
+  {
+    "name": "New Year's Day",
+    "time": [
+      "01.01"
+    ],
+    "desc": "Beginning of Another Happy New Year!",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "Republic Day",
+    "time": [
+      "01.26"
+    ],
+    "desc": "On Republic Day",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "Holi 2018",
+    "time": [
+      "2018",
+      "03.01",
+      "03.02"
+    ],
+    "desc": "Holi of 2018",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Holi 2017",
+    "time": [
+      "2017",
+      "03.12",
+      "03.13"
+    ],
+    "desc": "Holi of 2017",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Holi 2016",
+    "time": [
+      "2016",
+      "03.23",
+      "03.24"
+    ],
+    "desc": "Holi of 2016",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Krishna 2018",
+    "time": [
+      "2018",
+      "09.02",
+      "09.03"
+    ],
+    "desc": "Krishna Janmaashtami of 2018",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Krishna 2017",
+    "time": [
+      "2017.08.14"
+    ],
+    "desc": "Krishna Janmaashtami of 2017",
+    "recurrence": "ONEYEAR_ONEDAY"
+  },
+  {
+    "name": "Krishna 2016",
+    "time": [
+      "2016",
+      "08.25",
+      "08.26"
+    ],
+    "desc": "Krishna Janmaashtami of 2016",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Independence Day",
+    "time": [
+      "08.15"
+    ],
+    "desc": "On Independence Day",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "Gandhi",
+    "time": [
+      "10.02"
+    ],
+    "desc": "Mahatma Gandhi Jayanti",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "Diwali 2018",
+    "time": [
+      "2018",
+      "11.06",
+      "11.10"
+    ],
+    "desc": "Diwali 2018 . Festival of Lights!",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Diwali 2017",
+    "time": [
+      "2017",
+      "10.18",
+      "10.22"
+    ],
+    "desc": "Diwali 2017 . Festival of Lights!",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Diwali 2016",
+    "time": [
+      "2016",
+      "10.30",
+      "11.03"
+    ],
+    "desc": "Diwali 2016 . Festival of Lights!",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Christmas",
+    "time": [
+      "12.25"
+    ],
+    "desc": "In memory of Christmas",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "The Last Day Of The Year",
+    "time": [
+      "12.31"
+    ],
+    "desc": "Last day of the year . farewell to the passing year",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  }
+]

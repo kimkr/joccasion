@@ -1,0 +1,98 @@
+[
+  {
+    "name": "New Year's Day",
+    "time": ["01.01", "01.02"],
+    "desc": "快乐的新年!",
+    "recurrence": "EVERYYEAR_SPAN"
+  },
+  {
+    "name": "Chinese New Year 2018 1",
+    "time": ["2018.02.16"],
+    "desc": "春节 2018!",
+    "recurrence": "ONEYEAR_ONEDAY"
+  },
+  {
+    "name": "Chinese New Year 2018 2",
+    "time": ["2018", "02.17", "02.21"],
+    "desc": "黄金周 . 春节 2018!",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Chinese New Year 2017 1",
+    "time": ["2017.01.28"],
+    "desc": "春节 2017!",
+    "recurrence": "ONEYEAR_ONEDAY"
+  },
+  {
+    "name": "Chinese New Year 2017 2",
+    "time": ["2017", "01.29", "02.02"],
+    "desc": "黄金周 . 春节 2017!",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Chinese New Year 2016 1",
+    "time": ["2016.02.08"],
+    "desc": "春节 2016!",
+    "recurrence": "ONEYEAR_ONEDAY"
+  },
+  {
+    "name": "Chinese New Year 2016 2",
+    "time": ["2016", "02.09", "02.13"],
+    "desc": "黄金周 . 春节 2016!",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Labor Day",
+    "time": ["04.29", "05.01"],
+    "desc": "劳动节!",
+    "recurrence": "EVERYYEAR_SPAN"
+  },
+  {
+    "name": "Dragon boat 2018",
+    "time": ["2018", "06.16", "06.18"],
+    "desc": "端午节 2018!",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Dragon boat 2017",
+    "time": ["2017", "05.28", "05.30"],
+    "desc": "端午节 2017!",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Dragon boat 2016",
+    "time": ["2016", "06.09", "06.11"],
+    "desc": "端午节 2016!",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Children's Day",
+    "time": ["06.01"],
+    "desc": "儿童节快乐!",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "Chuseok",
+    "time": ["10.01", "10.08"],
+    "desc": "黄金周 . 国庆日!",
+    "recurrence": "EVERYYEAR_SPAN"
+  },
+  {
+    "name": "Christmas Eve",
+    "time": ["12.24"],
+    "desc": "平安夜 . 圣诞节快乐!",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "Christmas",
+    "time": ["12.25"],
+    "desc": "为了纪念圣诞节",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "The Last Day Of The Year",
+    "time": ["12.31"],
+    "desc": "今年的最后一天..",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  }
+]

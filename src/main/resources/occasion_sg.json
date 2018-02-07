@@ -1,0 +1,102 @@
+[
+  {
+    "name": "New Year's Day",
+    "time": [
+      "01.01"
+    ],
+    "desc": "Beginning of Another Happy New Year!",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "Chinese New Year 2018",
+    "time": [
+      "2018",
+      "02.16",
+      "02.17"
+    ],
+    "desc": "Happy Lunar New Year for 2018!",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Chinese New Year 2017",
+    "time": [
+      "2017",
+      "01.28",
+      "01.29"
+    ],
+    "desc": "Happy Lunar New Year for 2017!",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Chinese New Year 2016",
+    "time": [
+      "2016",
+      "02.08",
+      "02.09"
+    ],
+    "desc": "Happy Lunar New Year for 2016!",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Easter 2018",
+    "time": [
+      "2018",
+      "03.30",
+      "04.02"
+    ],
+    "desc": "On Easter of 2018",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Easter 2017",
+    "time": [
+      "2017",
+      "04.14",
+      "04.17"
+    ],
+    "desc": "On Easter of 2017",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Easter 2016",
+    "time": [
+      "2016",
+      "03.25",
+      "03.28"
+    ],
+    "desc": "On Easter of 2016",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "National Day",
+    "time": [
+      "08.09"
+    ],
+    "desc": "On National Day",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "Christmas Eve",
+    "time": [
+      "12.24"
+    ],
+    "desc": "Christmas Eve . Merry Christmas!",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "Christmas",
+    "time": [
+      "12.25"
+    ],
+    "desc": "In memory of Christmas",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "The Last Day Of The Year",
+    "time": [
+      "12.31"
+    ],
+    "desc": "Last day of the year . farewell to the passing year",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  }
+]

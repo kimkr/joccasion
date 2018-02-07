@@ -13,41 +13,18 @@ class OccasionManagerTest {
 
     val occasionManager = OccasionManager()
 
+    val country = Country.italy
+
     @Before
     fun setUp() {
-        occasionManager.addOccasionRules("KR", """
-    [{
-      "name": "Christmas",
-      "recurrence" : "EVERYYEAR_ONEDAY",
-      "time" : ["12.25"],
-      "desc": "Christmas"
-    },
-    {
-      "name": "Christmas Eve",
-      "recurrence" : "ONEYEAR_ONEDAY",
-      "time" : ["2018.12.25"],
-      "desc": "Christmas"
-    },
-    {
-      "name": "Spring festival",
-      "recurrence" : "EVERYYEAR_SPAN",
-      "time" : ["03.30", "04.02"],
-      "desc": "Spring festival"
-    },
-        {
-      "name": "Fall festival",
-      "recurrence" : "ONEYEAR_SPAN",
-      "time" : ["2018", "10.27", "10.28"],
-      "desc": "Fall festival"
-    },
-    ]
-""")
     }
 
     @Test
     fun getOccasions() {
-        println(occasionManager.getOccasions("KR", 2000))
-        println(occasionManager.getOccasions("KR", 2018))
+        println(occasionManager.getOccasions(country, 2000))
+        println(occasionManager.getOccasions(country, 2016))
+        println(occasionManager.getOccasions(country, 2017))
+        println(occasionManager.getOccasions(country, 2018))
     }
 
     @Test
@@ -55,19 +32,19 @@ class OccasionManagerTest {
         var occasionRule: OccasionRule
         var occasions: Set<Occasion>
 
-        occasionRule = OccasionRule("abc", RecurrenceRule.ONEYEAR_ONEDAY, listOf("2000.12.31"), "the last day of the year")
+        occasionRule = OccasionRule("abc", RecurrenceRule.ONEYEAR_ONEDAY, listOf("2000.12.31"), null, "the last day of the year")
         occasions = occasionManager.getOccasions(2000, occasionRule)
         println(occasions)
 
-        occasionRule = OccasionRule("abc", RecurrenceRule.ONEYEAR_SPAN, listOf("2000", "12.30", "12.31"), "the last day of the year")
+        occasionRule = OccasionRule("abc", RecurrenceRule.ONEYEAR_SPAN, listOf("2000", "12.30", "12.31"), null, "the last day of the year")
         occasions = occasionManager.getOccasions(2000, occasionRule)
         println(occasions)
 
-        occasionRule = OccasionRule("abc", RecurrenceRule.EVERYYEAR_ONEDAY, listOf("12.31"), "the last day of the year")
+        occasionRule = OccasionRule("abc", RecurrenceRule.EVERYYEAR_ONEDAY, listOf("12.31"), null, "the last day of the year")
         occasions = occasionManager.getOccasions(2000, occasionRule)
         println(occasions)
 
-        occasionRule = OccasionRule("abc", RecurrenceRule.EVERYYEAR_SPAN, listOf("12.30", "12.31"), "the last day of the year")
+        occasionRule = OccasionRule("abc", RecurrenceRule.EVERYYEAR_SPAN, listOf("12.30", "12.31"), null, "the last day of the year")
         occasions = occasionManager.getOccasions(2000, occasionRule)
         println(occasions)
     }
