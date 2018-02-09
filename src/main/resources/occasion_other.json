@@ -1,0 +1,26 @@
+[
+  {
+    "name": "New Year's Day",
+    "time": ["01.01"],
+    "desc": "Beginning of Another Happy New Year!",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "Christmas Eve",
+    "time": ["12.24"],
+    "desc": "Christmas Eve . Merry Christmas!",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "Christmas",
+    "time": ["12.25"],
+    "desc": "In memory of Christmas",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "The Last Day Of The Year",
+    "time": ["12.31"],
+    "desc": "Last day of the year . farewell to the passing year",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  }
+]

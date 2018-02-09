@@ -1,0 +1,79 @@
+[
+  {
+    "name": "New Year's Day",
+    "time": ["01.01"],
+    "title" : "Beginning of Happy New Year!",
+    "desc": "즐거운 새해를 맞이하며",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "Chinese New Year 2018",
+    "time": ["2018", "02.15", "02.17"],
+    "title" : "Happy Lunar New Year 2018!",
+    "desc": "2018년의 구정 명절을 맞이하여",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Chinese New Year 2017",
+    "time": ["2017", "01.27", "01.30"],
+    "title" : "Happy Lunar New Year 2017!",
+    "desc": "2017년의 구정 명절을 보내며",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Chinese New Year 2016",
+    "time": ["2016", "02.07", "02.10"],
+    "title" : "Happy Lunar New Year 2016!",
+    "desc": "2016년의 구정 명절과 함께",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Children's Day",
+    "time": ["05.05"],
+    "title" : "Children's Day!",
+    "desc": "어린이날!",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "Chuseok 2018",
+    "time": ["2018", "09.23", "09.26"],
+    "title" : "Grateful Chuseok 2018",
+    "desc": "2018년의 추석 명절을 맞이하여",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Chuseok 2017",
+    "time": ["2017", "09.03", "09.06"],
+    "title" : "Grateful Chuseok 2017",
+    "desc": "2017년의 추석 명절을 보내며",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Chuseok 2016",
+    "time": ["2016", "09.14", "09.16"],
+    "title" : "Grateful Chuseok 2016",
+    "desc": "2016년의 추석 명절과 함께",
+    "recurrence": "ONEYEAR_SPAN"
+  },
+  {
+    "name": "Christmas Eve",
+    "time": ["12.24"],
+    "title" : "Christmas Eve - Merry Christmas!",
+    "desc": "크리스마스 이브 - 메리 크리스마스!",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "Christmas",
+    "time": ["12.25"],
+    "title" : "In memory of Christmas ",
+    "desc": "성탄절을 기리며",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  },
+  {
+    "name": "The Last Day Of The Year",
+    "time": ["12.31"],
+    "title" : "Last day of the year - farewell to the passing year",
+    "desc": "한 해의 마지막 날",
+    "recurrence": "EVERYYEAR_ONEDAY"
+  }
+]

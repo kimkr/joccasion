@@ -1,3 +1,4 @@
+import manager.*
 import org.junit.Test
 import org.junit.runner.RunWith
 
@@ -11,9 +12,11 @@ import java.time.LocalDate
 @RunWith(JUnit4::class)
 class OccasionManagerTest {
 
-    val occasionManager = OccasionManager()
+    class OccasionManagerImpl
 
-    val country = Country.italy
+    val occasionManager = OccasionManager(ClassFileReader())
+
+    val country = Country.korea
 
     @Before
     fun setUp() {

@@ -1,3 +1,5 @@
+package manager
+
 enum class Country(val code: String, val lang: String, val group: String? = null) {
 
     // NO GROUP
@@ -41,9 +43,9 @@ enum class Country(val code: String, val lang: String, val group: String? = null
     saudiarabia("SA", "ru", "muslim"),
     unitedarabemirates("AE", "ru", "muslim"),
 
-    western("western", "en", "western"),
-    muslim("muslim", "ru", "muslim"),
-    NA("null", "null", null);
+    western("western", "en", null),
+    muslim("muslim", "ru", null),
+    other("other", "null", null);
 
     fun fromLang(name: String): Country {
         var replaced: String = name

@@ -1,24 +1,37 @@
+package manager
+
 import rule.OccasionRule
 import rule.RecurrenceRule.*
 import rule.OccasionRuleParser
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
-class OccasionManager {
+class OccasionManager(fileReader: FileReader) {
 
+    private val fileReader = fileReader
     // COUNTRY - OCCASION RULE
     private val occasionRuleMap: MutableMap<String, List<OccasionRule>> = mutableMapOf()
     private val occasionMap: MutableMap<String, MutableMap<Int, Set<Occasion>>> = mutableMapOf()
     private val parser = OccasionRuleParser()
 
     fun loadOccasionRules(code: String, path: String) {
-        val fileContent = OccasionManager::class.java.getResource(path).readText()
+        val fileContent = fileReader.readFile(path)
         addOccasionRules(code, fileContent)
     }
 
     fun addOccasionRules(code: String, jsonArray: String) {
         val occasionRules = parser.parseArray(jsonArray)!!
         occasionRuleMap.put(code, occasionRules)
+    }
+
+    fun checkOccasion(country: Country, year: Int, date: String): String? {
+        var occasions = getOccasions(country, year)
+        for (occasion in occasions) {
+            if (occasion.date.equals(date)) {
+                return if (occasion.desc.isNullOrEmpty()) occasion.title else occasion.desc
+            }
+        }
+        return null
     }
 
     fun getOccasions(country: Country, year: Int): Set<Occasion> {
@@ -78,7 +91,7 @@ class OccasionManager {
                 }
             }
         }
-        dates.map { date -> occasions.add(Occasion(date, rule.name, rule.title, rule.desc)) }
+        dates.map { date -> occasions.add(Occasion(date.format(DateTimeFormatter.ofPattern("yyyy.MM.dd")), rule.name, rule.title, rule.desc)) }
         return occasions
     }
 
